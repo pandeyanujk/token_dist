@@ -70,9 +70,9 @@ class EmissionSystem:
 
 
 def main():
-    st.title("Token Emission System")
+    st.title("PL AA Emission System")
     
-    st.sidebar.header("System Configuration")
+    st.sidebar.header("Input Configuration")
     total_emissions = st.sidebar.number_input("Total emissions per period", value=10000, step=1000)
     num_pillars = st.sidebar.number_input("Number of pillars", value=1, step=1)
 
